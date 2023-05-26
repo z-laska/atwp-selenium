@@ -15,6 +15,9 @@ class TestLogin(unittest.TestCase):
     def test_mass_100756(self):
         self.assertEqual(33583, calculate_fuel(100756))
 
+    def test_mass_negative(self):
+        pass
+
 
 if __name__ == '__main__':
     unittest.main()
